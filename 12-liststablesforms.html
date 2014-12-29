@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lists, Tables and Forms </title>
+		<link href="css/list.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Christmas Party RSVP</h1>
+		<p>We are throwing a party on December 25th, 2014. Please
+		come join and have a great time with friends. If coming,
+		RSVP below and bring an item to the potluck as well. </p>
+		<p>Please note that you should bring these things:</p>
+		<ul>
+			<li>White elephant gift</li>
+			<li>Dinner Item</li>
+			<li>Your happy smile!</li>
+		</ul>
+		<table>
+			<tr class="head">
+				<th></th>
+				<th>Grand Rapids</th>
+				<th>Big Rapids</th>
+				<th>Ann Arbor</th>
+				<th>Detroit</th>
+			</tr>
+			<tr>
+				<th>Times</th>
+				<td>Dec 25th, 2014<br/>6pm - 12am</td>
+				<td>Dec 28th, 2014<br/>7pm - 11pm</td>
+				<td>Dec 30th, 2014<br/>8pm - 10pm</td>
+				<td>Jan 1st, 2015<br/>1am - 5am</td>
+			</tr>
+			<tr class="even">
+				<th>Culinary Types</th>
+				<td>Chinese</td>
+				<td>Italian</td>
+				<td>Mexican</td>
+				<td>American</td>
+			</tr>
+			<tr>
+				<th># People Attending</th>
+				<td>100</td>
+				<td>87</td>
+				<td>135</td>
+				<td>533</td>
+			</tr>
+		</table>
+		<form action="http://www.example.com/form.php" method="get">
+			<fieldset>
+				<legend>Register for the party</legend>
+				<p> <label class="title" for="name">Your name:</label>
+					<input type="text" name="name" id="name"<br/>
+					<label class="title" for="email">Your email:</label>
+					<input type="text" name="email" id="email"></p>
+				<p> <label for="location" class="title">Your best location:</label>
+					<select name="location" id="location">
+						<option value="home">Home</option>
+						<option value="work">Work</option>
+						<option value="school">School</option>
+					</select></p>
+				<span class="title">Are you a memeber?</span>
+				<label><input type="radio" name="member" value="yes"/>Yes</label>
+				<label><input type="radio" name="member" value="no"/>No</label>
+			</fieldset>
+			<div class="submit"><input type="submit" value="Register"/></div>
+			</form>
+		<br/>
+		<p class="links">
+			<a href="3-links.html">Return to Index</a>
+		</p>
+	</body>
+<html>

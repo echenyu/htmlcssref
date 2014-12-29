@@ -1,0 +1,37 @@
+/* The heading 1 has a black box*/
+body {
+	background-color: grey; 
+	padding:20px;
+	font-family:"HelveticaNeue-Light", Arial, sans-serif;
+}
+
+h1{
+	background-color: black;
+	color: white;
+	padding:inherit;
+}
+
+p{
+	margin:0px;
+	color:white;
+}
+
+p.note {
+	color: #FFC800;
+}
+
+p.zero{
+	background-color:red;}
+p.one{
+	background-color:orange;}
+p.two{ 
+	background-color:yellow;
+	color:black;}
+p.three{
+	background-color:green;}
+p.four{
+	background-color:blue;}
+p.five{
+	background-color:purple;}
+p.six{
+	background-color:pink;}

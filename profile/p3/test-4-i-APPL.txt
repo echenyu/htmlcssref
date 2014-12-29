@@ -1,0 +1,10 @@
+TL
+0	Eric	BUY		APPL	$120	#30
+0	Nick	SELL	APPL	$121	#20
+0	Jon		BUY		APPL	$122	#10
+1 	Aron	SELL	APPL	$20		#100
+1 	Eric 	SELL	GOOG	$200	#12
+2 	Nick	BUY		APPL	$42		#11
+2 	Jere	BUY		AMZN	$100	#40
+3 	Aron	SELL	AMZN	$85		#13
+3 	Jon		BUY		GOOG	$300	#8

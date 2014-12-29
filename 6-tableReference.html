@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title> Table Reference </title>
+	</head>
+	<body>
+		<h1> Let's Learn Tables! </h1>
+		<p> Obviously, a table starts out with the table tag. 
+		Elements are represented with (td) and row/column headings
+		are represented with (th). Use the scope attribute to 
+		see if the heading is for a row or column.</p>
+		<br/>
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th scope="col">Day 1</th>
+					<th scope="col">Day 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr> 
+					<th scope="row">Cycle 1</th>
+					<td>Success</td>
+					<td>x</td>
+				</tr>
+				<tr>
+					<th scope="row">Cycle 2</th>
+					<td>x</td>
+					<td>x</td>
+				</tr>
+				<tr> 
+					<th scope="row">Cycle 3</th>
+					<td colspan="2">No data available</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td colspan="2">So far so good!</td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<p> The colspan and rowspan attributes make it possible
+		to let the (td) go across more than just one column or one row. 
+		In cycle 3, "No data available" spans two columns</p>
+
+		<p> Whenever creating tables, distinguish the main content
+		from the top and bottom by using the (thead), (tbody), and 
+		(tfoot) tags. These tags will help create separation. Primarily
+		useful for larger tables though! </p>
+
+		<a href = "3-links.html"> Back to Index </a>
+	</body>
+</html>

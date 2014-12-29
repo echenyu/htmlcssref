@@ -1,0 +1,4 @@
+TL
+0	Eric	SELL	APPL	$10	#5
+0 	Eric	BUY		APPL	$20	#3
+1 	Jon		BUY		APPL	$15	#2

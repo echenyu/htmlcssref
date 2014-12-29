@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<title> Forms </title>
+	<head>
+	<body>
+		<h3 id="top"> Forms Reference </h3>
+		<p> Forms are an incredibly important part of html. One of the best known
+		forms we can think of is Google! Furthermore, signing up as a user is
+		also a critical part of forms. Pretty much anytime you need to collect info,
+		you should use a form! Reference page 148 for the different 
+		types of forms that can be used to collect information. Use placeholders
+		to add in the grey text that disappears in text boxes. </p>
+
+		<ol> 
+			<li> <a href="#textbox">Text Boxes</a></li>
+			<li> <a href="#password">Password Boxes</a></li>
+			<li> <a href="#textarea">Text Areas</a></li>
+			<li> <a href="#radio">Radio Buttons</a></li>
+			<li> <a href="#checkbox">Check Boxes</a></li>
+			<li> <a href="#dropdown">Drop Down Box</a></li>
+			<li> <a href="#fileinput">File Input Box</a></li>
+			<li> <a href="#labels">Labels</a></li>
+		</ol>
+
+		<h3 id="textbox"> Text Boxes </h3>
+		<form action="http://www.example.com/login.php">
+			<p>Username:
+				<input type="text" name="username" method="post" 
+				placeholder="Please enter your username">
+			</p>
+			<a href="#top">Back to top</a>
+			<br/>
+
+			<h3 id="password">Password Boxes</h3>
+			<p>
+				<label for="password"> Password:</label>
+				<input type="password" name="password" method="post" required="required"
+				placeholder="Please enter your password">
+				<input type="submit" value="Submit">
+			</p>
+			<a href="#top">Back to top</a>
+			<br/>
+
+			<h3 id="textarea">Text Areas</h3>
+			<p>What's the make and model of your first car?</p>
+				<textarea name="comments" cols="20" rows="4">Enter your data...</textarea>
+			<br/>
+			<a href="#top">Back to top</a>
+			<br/>
+		</form>
+
+		<p> The action attribute must be used every time. It essentially tells
+		you where the data is being received/sent. The method attribute lets
+		you determined whether data is being sent or received. "Get" should be 
+		used for short forms and retrievel. "Post" for everything else. Type attribute let me have a password and regular text one. The radio buttons
+		below are made with the radio input type. Make sure to add the checked
+		attribute to at least one of the radio buttons.</p>
+
+		<form action="http://www.example.com/profile.php">
+			<h3 id="radio">Radio Buttons</h3>
+			<p>What sleep cycle do you use?
+				<br/>
+				<input type="radio" name="type" value="Normal" checked="checked"/>Normal
+				<input type="radio" name="type" value="Everyman"/>Everyman
+				<input type="radio" name="type" value="Uberman"/>Uberman
+			</p>
+			<a href="#top">Back to top</a>
+			<br/>
+		</form>
+
+		<p>I can also switch the input type to checkbox to have boxes instead of circles</p>
+		<form action="http://www.example.com/profile.php">
+			<h3 id="checkbox">Check Boxes</h3>
+			<p>What sleep cycle do you use?
+				<br/>
+				<input type="checkbox" name="type" value="Normal" checked="checked"/>Normal
+				<input type="checkbox" name="type" value="Everyman"/>Everyman
+				<input type="checkbox" name="type" value="Uberman"/>Uberman
+			</p>
+			<a href="#top">Back to top</a>
+			<br/>
+		</form>
+
+		<form action="http:www.example.com/profile.php">
+			<h3 id="dropdown">Drop Down Box</h3>
+			<p>What's your favorite type of meat?</p>
+			<select name="Meats">
+				<option value="Chicken">Chicken</option>
+				<option value="Beef">Beef</option>
+				<option value="Fish">Fish</option>
+				<option value="Pork">Pork</option>
+			</select>
+			<br/>
+			<a href="#top">Back to top</a>
+			
+		</form>
+
+		<form action="http://example.com/upload.php" method="post">
+			<h3 id="fileinput">File Input Box</h3>
+			<p>Upload your file to continue</p>
+			<input type="file" name="user-song" /><br/>
+			<input type="submit" value="Upload"/>
+			<br/>
+			<a href="#top">Back to top</a>
+			
+		</form>
+
+		<form action="http://example.com/form.php" method="get">
+			<h3 id="labels"> Labels </h3>
+			<p>Labels are needed to help vision-impaired users. 
+			In the radio boxes above, the name of the box was written to the side of it.
+			Now, using labels and id, we can set the label of these boxes elsewhere. Using fieldset, we can group things in a form together. Adds a box around
+			the sides of the label</p>
+			<fieldset>
+				<legend>Name and Gender</legend>
+				<label>Age: <input type="text" name="age" /></label>
+				<br/>
+				Gender:
+				<input id="female" type="radio" name="gender" value="f">
+				<label for="female">Female</label>
+				<input id="male" type = "radio" name="gender" value="m">
+				<label for="male">Male</label>
+			</fieldset>
+			<a href="#top">Back to top</a>
+			<br/><br/>
+		</form>
+
+
+
+		<a href="3-links.html">Back To Index</a>
+	</body>
+</html>

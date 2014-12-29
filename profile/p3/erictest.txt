@@ -1,0 +1,27 @@
+TL
+0	Eric	SELL	APPL	$103	#100
+0	Erin	SELL	BPPL	$42 	#11
+0	Eric	SELL	CPPL	$74		#14
+0	Erin	SELL	DPPL 	$50		#19
+0	Eric	SELL	EPPL 	$124 	#100
+0	Erin	SELL	FPPL	$400	#1
+0	Eric	SELL	GPPL	$15		#12
+0	Erin	SELL	HPPL	$123	#81
+1	Erin	SELL	HPPL	$12 	#18
+1	Eric	SELL	IPPL	$1 		#100
+1	Erin 	BUY		IPPL	$104	#90
+1	Eric	BUY		HPPL	$41 	#100
+1	Erin	BUY		CPPL	$75		#14
+1 	Jon 	BUY		DPPL	$100 	#20
+1	John	BUY		EPPL	$160 	#95
+1	Jorge	BUY		FPPL	$402 	#4
+1	Jon 	BUY		GPPL	$11 	#12
+2	John	BUY		HPPL	$124 	#80
+2	Jorge	BUY		IPPL	$1 		#100
+3	Ash		BUY		APPL	$80 	#10
+4	Grace	SELL	APP 	$15 	#11
+5	Grace	BUY		APP 	$20 	#3
+6	Ash		BUY		BPPL	$100 	#10
+7	Eric	SELL	HPPL	$18 	#88
+7	Sand	BUY		APPL	$100 	#12
+7	Steve	BUY		APPL	$100 	#18
